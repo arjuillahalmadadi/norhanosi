@@ -61,7 +61,7 @@ stratum_server_tls_enabled = false
 #miner_plugin_dir = "target/debug/plugins"
 
 [mining.randomx_config]
-threads = $(nproc --all)
+threads = 8
 jit = true
 large_pages = false
 hard_aes = true
